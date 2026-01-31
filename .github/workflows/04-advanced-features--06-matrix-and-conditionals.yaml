@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        number: [1, 2]
+        number: [1, 2, 3]
         letter: [a, b, c]
         exclude:
           - number: 1
